@@ -19,7 +19,7 @@ jobs:
     steps:
       # Set up Flutter.
       - name: Clone Flutter repository with master channel
-        uses: subosito/flutter-action@b1d33bca250325e536d154a6ae802a463c52bc57
+        uses: subosito/flutter-action@de3cdb9a4b2f535dc0fa0da445a46b10b1bfefc7
         with:
           channel: master
       - run: flutter config --enable-macos-desktop
